@@ -2,6 +2,7 @@ black==21.7b0
 flake8==3.9.2
 flake8-quotes==3.2.0
 isort==5.9.3
+metrics @ https://github.com/sthagen/metrics/archive/refs/tags/v0.3.3.1-xp1.tar.gz
 mypy==0.910
 pycodestyle==2.7.0
 pyflakes==2.3.1
