@@ -5,3 +5,5 @@ Python implementation of book - a tool calculating binary year to date metrics w
 ## Status
 
 Experimental.
+
+**Note**: The default branch is `default`.
