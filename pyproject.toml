@@ -1,0 +1,29 @@
+
+[tool.pyflow]
+name = "booq"
+py_version = "3.9"
+version = "0.0.1"
+authors = ["Stefan Hagen <stefan@hagen.link>"]
+
+[tool.pyflow.scripts]
+
+[tool.pyflow.dependencies]
+first = "^2.0.2"
+jmespath = "^0.10.0"
+jsonschema = "^3.2.0"
+kdl-py = "https://github.com/sthagen/kdl-py/archive/refs/tags/v0.1.5.1-fork.tar.gz"
+lxml = "^4.6.3"
+orjson = "^3.6.1"
+PyYAML = "^5.4.1"
+toml = "^0.10.2"
+typer = "^0.3.2"
+xmlschema = "^1.7.0"
+
+[tool.pyflow.dev-dependencies]
+black = "^21.7b0"
+coverage = "^5.5.0"
+flake8 = "^3.9.2"
+mypy = "^0.910.0"
+pylint = "^2.9.6"
+pyperf = "^2.2.0"
+pytest = "^6.2.4"
