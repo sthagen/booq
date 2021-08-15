@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "binary": {
+      "logic": "first",
+      "evaluation": [
+        "is_good",
+        "is_bad"
+      ]
+    },
+    "is_bad": [
+      true
+    ],
+    "is_good": [
+      {
+        "key": "closed",
+        "values": [
+          {
+            "is": true
+          }
+        ]
+      },
+      {
+        "key": "status",
+        "values": [
+          {
+            "eq": "MERGED"
+          }
+        ]
+      }
+    ],
+    "time_window": [
+      {
+        "key": "create_at"
+      },
+      {
+        "key": "close_at"
+      }
+    ]
+  },
+  "data": [
+    {
+      "create_at": "2021-01-01 12:34:56",
+      "close_at": "2021-01-31 12:34:56",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-01-31 12:34:54",
+      "close_at": "2021-01-31 12:34:55",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-02-01 12:34:56",
+      "close_at": "2021-02-28 12:34:56",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-02-01 12:34:56",
+      "close_at": "2021-02-28 12:34:55",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-03-01 12:34:56",
+      "close_at": "2021-03-31 12:34:56",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-03-01 12:34:56",
+      "close_at": "2021-03-31 12:34:55",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-04-01 12:34:56",
+      "close_at": "2021-04-30 12:34:56",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-04-01 12:34:56",
+      "close_at": "2021-04-30 12:34:55",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-05-01 12:34:56",
+      "close_at": "2021-05-31 12:34:56",
+      "closed": true,
+      "status": "MERGED"
+    },
+    {
+      "create_at": "2021-05-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-06-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-06-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-07-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-07-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-08-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-08-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-08-01 12:34:56",
+      "close_at": "2021-08-02 12:34:56",
+      "closed": true,
+      "status": "DECLINED"
+    },
+    {
+      "create_at": "2021-08-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    },
+    {
+      "create_at": "2021-08-01 12:34:56",
+      "close_at": null,
+      "closed": false,
+      "status": "OPEN"
+    }
+  ]
+}
