@@ -16,9 +16,13 @@ def test_main_nok_too_many_arguments_remove_later():
         cli.main(1, 2)
 
 
-def test_load_events():
-    with open(pathlib.Path('tests', 'fixtures', 'custom', 'events.json'), 'rt', encoding=ENCODING) as handle:
+def load_events(path: pathlib.Path):
+    """Load events from JSON text at path."""
+    with open(path, 'rt', encoding=ENCODING) as handle:
         event_data = handle.read()
-    events = orjson.loads(event_data)
-    del event_data
+    return orjson.loads(event_data)
+
+
+def test_load_events():
+    events = load_events(pathlib.Path('tests', 'fixtures', 'custom', 'events.json'))
     assert 'data' in events
