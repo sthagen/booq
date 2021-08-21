@@ -1,0 +1,49 @@
+
+{
+  "last_page": 1,
+  "_meta": {
+    "templates": {
+      "project_url": "https://$0/projects/$1",
+      "repository_url": "https://$0/projects/$1/repos/$2",
+      "branch_url": "https://$0/projects/$1/repos/$2/browse?at=refs%2Fheads%2F$3",
+      "pull_request_url": "https://$0/projects/$1/repos/$2/pull-requests/$3"
+    },
+    "timezone": "UTC"
+  },
+  "data": [
+    {
+      "id": 1,
+      "ref": "project/repo#42",
+      "number": 42,
+      "title": "some title",
+      "description": "some description",
+      "state": "MERGED",
+      "open": false,
+      "closed": true,
+      "create_at": "2021-01-01 01:16:45",
+      "modify_at": "2021-01-01 02:39:24",
+      "close_at": "2021-01-01 03:39:24",
+      "from_project": "project",
+      "from_project_url": ["example.org", "project"],
+      "from_repository": "repo",
+      "from_repository_url": ["example.org", "project", "repo"],
+      "from_branch": "source-branch",
+      "from_branch_url": ["example.org", "project", "repo", "source-branch"],
+      "to_project": "project",
+      "to_project_url": ["example.org", "project"],
+      "to_repository": "repo",
+      "to_repository_url": ["example.org", "project", "repo"],
+      "to_branch": "target-branch",
+      "to_branch_url": ["example.org", "project", "repo", "tagret-branch"],
+      "locked": false,
+      "requested_reviewer_count": 3,
+      "active_reviewer_count": 3,
+      "approval_count": 2,
+      "total_task_count": 4,
+      "open_task_count": 1,
+      "comment_count": 13,
+      "pr_url": ["example.org", "project", "repo", "42"],
+    }
+  ],
+  "data_version": "2021-01-01T08:12"
+}
