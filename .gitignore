@@ -133,3 +133,4 @@ dmypy.json
 .idea
 .metrics
 local_*
+.vscode/
