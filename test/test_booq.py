@@ -77,12 +77,12 @@ def parse_meta(events):
 
 
 def test_load_events():
-    events = load_events(pathlib.Path('tests', 'fixtures', 'custom', 'events.json'))
+    events = load_events(pathlib.Path('test', 'fixtures', 'custom', 'events.json'))
     assert 'data' in events
 
 
 def test_parse_meta():
-    events = load_events(pathlib.Path('tests', 'fixtures', 'custom', 'events.json'))
+    events = load_events(pathlib.Path('test', 'fixtures', 'custom', 'events.json'))
     algorithm = parse_meta(events)
     assert algorithm['is_bad'] is True
     assert algorithm['is_good'][0]['key'] == 'closed'
