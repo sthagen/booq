@@ -1,12 +1,8 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[tool.pyflow]
-name = "booq"
-py_version = "3.9"
-version = "0.0.1"
-authors = ["Stefan Hagen <stefan@hagen.link>"]
-
-[tool.pyflow.scripts]
-
-[tool.pyflow.dependencies]
-
-[tool.pyflow.dev-dependencies]
+[tool.black]
+line-length = 120
+skip-string-normalization = "True"
+target-version = ["py38", "py39", "py310"]
