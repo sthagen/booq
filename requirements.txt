@@ -7,4 +7,4 @@ lxml==4.9.1
 orjson==3.7.7
 toml==0.10.2
 typer==0.6.1
-xmlschema==1.11.3
+xmlschema==2.0.0
