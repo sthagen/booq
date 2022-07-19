@@ -4,7 +4,7 @@ jmespath==1.0.1
 jsonschema==4.7.2
 kdl-py@ https://github.com/sthagen/kdl-py/archive/refs/tags/v0.1.5.1-fork.tar.gz
 lxml==4.9.1
-orjson==3.7.7
+orjson==3.7.8
 toml==0.10.2
 typer==0.6.1
 xmlschema==2.0.0
