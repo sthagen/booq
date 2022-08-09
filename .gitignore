@@ -128,9 +128,15 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Local ephemeral artifacts
+# Local development artifacts
 *~
 .idea
-.metrics
-local_*
+*.log
+local*
 .vscode/
+current-bandit.json
+tmp*
+foo
+
+# Repository specific ignores
+.metrics
