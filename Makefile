@@ -1,6 +1,9 @@
 .DEFAULT_GOAL := all
-isort = isort booq test
 black = black -S -l 120 --target-version py39 booq test
+flake8 = flake8 booq test
+isort = isort booq test
+pytest = pytest --asyncio-mode=strict --cov=booq --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
+types = mypy booq
 
 .PHONY: install
 install:
@@ -17,20 +20,25 @@ format:
 	$(isort)
 	$(black)
 
+.PHONY: init
+init:
+	pip install -r test/requirements.txt
+	pip install -r test/requirements-dev.txt
+
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	flake8 booq/ test/
+	$(flake8)
 	$(isort) --check-only --df
 	$(black) --check --diff
 
-.PHONY: mypy
-mypy:
-	mypy booq
+.PHONY: types
+types:
+	$(types)
 
 .PHONY: test
-test:
-	pytest --asyncio-mode=strict --cov=booq --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
+test: clean
+	$(pytest)
 
 .PHONY: testcov
 testcov: test
@@ -38,7 +46,21 @@ testcov: test
 	@coverage html
 
 .PHONY: all
-all: lint mypy testcov
+all: lint types testcov
+
+.PHONY: version
+version:
+	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_version import *" pyproject.toml booq/__init__.py
+
+.PHONY: secure
+secure:
+	@bandit --output current-bandit.json --baseline baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build booq
+	@diff -Nu {baseline,current}-bandit.json; printf "^ Only the timestamps ^^ ^^ ^^ ^^ ^^ ^^ should differ. OK?\n"
+
+.PHONY: baseline
+baseline:
+	@bandit --output baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build booq
+	@cat baseline-bandit.json; printf "\n^ The new baseline ^^ ^^ ^^ ^^ ^^ ^^. OK?\n"
 
 .PHONY: clean
 clean:
