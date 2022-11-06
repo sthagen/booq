@@ -3,6 +3,9 @@ site_description: Python implementation of booq - a tool calculating binary year
 
 theme:
   name: 'material'
+  features:
+    - navigation.expand
+    - toc.integrate
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
