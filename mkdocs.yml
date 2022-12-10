@@ -3,6 +3,8 @@ site_description: Python implementation of booq - a tool calculating binary year
 
 theme:
   name: 'material'
+  logo: assets/logo.png
+  favicon: images/favicon.ico
   features:
     - navigation.expand
     - toc.integrate
