@@ -1,4 +1,4 @@
-site_name: booq
+site_name: Booq
 site_description: Python implementation of booq - a tool calculating binary year to date metrics with monthly cumulative slices.
 
 theme:
