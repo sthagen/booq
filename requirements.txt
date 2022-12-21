@@ -1,10 +1,10 @@
 PyYAML==6.0
 first==2.0.2
 jmespath==1.0.1
-jsonschema==4.16.0
+jsonschema==4.17.3
 #kdl-py@ https://github.com/sthagen/kdl-py/archive/refs/tags/v0.1.5.1-fork.tar.gz
-lxml==4.9.1
-orjson==3.8.0
+lxml==4.9.2
+orjson==3.8.3
 toml==0.10.2
-typer==0.6.1
-xmlschema==2.0.4
+typer==0.7.0
+xmlschema==2.1.1
