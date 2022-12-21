@@ -2,7 +2,7 @@
 # pylint: disable=missing-docstring,unused-import,reimported
 import pathlib
 
-import orjson
+import msgspec
 import pytest  # type: ignore
 
 import booq.cli as cli
@@ -20,7 +20,7 @@ def load_events(path: pathlib.Path):
     """Load events from JSON text at path."""
     with open(path, 'rt', encoding=ENCODING) as handle:
         event_data = handle.read()
-    return orjson.loads(event_data)
+    return msgspec.json.decode(event_data)
 
 
 def parse_meta(events):
