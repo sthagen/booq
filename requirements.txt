@@ -7,4 +7,4 @@ lxml==4.9.2
 msgspec==0.15.0
 toml==0.10.2
 typer==0.9.0
-xmlschema==2.2.3
+xmlschema==2.3.0
