@@ -28,10 +28,10 @@ dependencies = [
     "jmespath >= 1.0.1",
     "jsonschema >= 4.17.3",
     "lxml >= 4.9.2",
-    "msgspec >= 0.15.1",
+    "msgspec >= 0.16.0",
     "toml >= 0.10.2",
     "typer >= 0.9.0",
-    "xmlschema >= 2.3.0",
+    "xmlschema >= 2.3.1",
 ]
 requires-python = ">=3.9"
 
