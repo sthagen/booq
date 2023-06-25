@@ -1,9 +1,9 @@
-# Change History
+# Changes
 
-## Source
+Source
+:    * Migrated from orjson to msgspec
 
-* Migrated from orjson to msgspec
+## 2022
 
-## 2022.8.9
-
-* Initial release on PyPI
+2022.8.9
+:    * Initial release on PyPI
