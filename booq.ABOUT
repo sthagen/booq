@@ -1,0 +1,14 @@
+name: booq
+description: Python implementation of booq - a tool calculating binary year to date metrics with monthly cumulative slices.
+license_spdx: MIT
+version: 2022.8.9
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/booq
+news_url: https://libraries.io/pypi/booq/versions.atom
+date: 2022-08-09
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/booq?number=2022.8.9
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/booq
+vcs_branch: default
+
