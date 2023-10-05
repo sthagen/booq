@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([8c34f303 ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:8c34f30317eb3374bf0ad3896589f297cf12ad9bfd9f890143ebab6c9453c744")).
-<!--[[[end]]] (checksum: d6c9789c94aeffcd7c4f7cb5adfedd6d)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([48ab6094 ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:48ab609437ff1207f076b79e39202862544f856951eed1acafa065cdea0c0dce")).
+<!--[[[end]]] (checksum: f368752c1b050b29f25db7968bf99211)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -17,12 +17,12 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [jmespath](https://github.com/jmespath/jmespath.py)             | [1.0.1](https://pypi.org/project/jmespath/1.0.1/)      | MIT License | James Saryerwinnie | JSON Matching Expressions                                                                                |
 | [jsonschema](https://github.com/python-jsonschema/jsonschema)   | [4.19.1](https://pypi.org/project/jsonschema/4.19.1/)  | MIT License | Julian Berman      | An implementation of JSON Schema validation for Python                                                   |
 | [lxml](https://lxml.de/)                                        | [4.9.3](https://pypi.org/project/lxml/4.9.3/)          | BSD License | lxml dev team      | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
-| [msgspec](https://jcristharif.com/msgspec/)                     | [0.18.3](https://pypi.org/project/msgspec/0.18.3/)     | BSD License | Jim Crist-Harif    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+| [msgspec](https://jcristharif.com/msgspec/)                     | [0.18.4](https://pypi.org/project/msgspec/0.18.4/)     | BSD License | Jim Crist-Harif    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
 | [referencing](https://github.com/python-jsonschema/referencing) | [0.30.2](https://pypi.org/project/referencing/0.30.2/) | MIT License | Julian Berman      | JSON Referencing + Python                                                                                |
 | [toml](https://github.com/uiri/toml)                            | [0.10.2](https://pypi.org/project/toml/0.10.2/)        | MIT License | William Pearson    | Python Library for Tom's Obvious, Minimal Language                                                       |
 | [typer](https://github.com/tiangolo/typer)                      | [0.9.0](https://pypi.org/project/typer/0.9.0/)         | MIT License | Sebastián Ramírez  | Typer, build great CLIs. Easy to code. Based on Python type hints.                                       |
 | [xmlschema](https://github.com/sissaschool/xmlschema)           | [2.5.0](https://pypi.org/project/xmlschema/2.5.0/)     | MIT License | Davide Brunato     | An XML Schema validator and decoder                                                                      |
-<!--[[[end]]] (checksum: a8ffbae77afc672fa777741542f857fb)-->
+<!--[[[end]]] (checksum: 383e7352ac52575cb6337040e1ee31b0)-->
 
 ### Indirect Dependencies
 
@@ -61,7 +61,7 @@ jsonschema==4.19.1
 │   └── rpds-py [required: >=0.7.0, installed: 0.8.11]
 └── rpds-py [required: >=0.7.1, installed: 0.8.11]
 lxml==4.9.3
-msgspec==0.18.3
+msgspec==0.18.4
 PyYAML==6.0.1
 toml==0.10.2
 typer==0.9.0
@@ -70,4 +70,4 @@ typer==0.9.0
 xmlschema==2.5.0
 └── elementpath [required: >=4.1.5,<5.0.0, installed: 4.1.5]
 ````
-<!--[[[end]]] (checksum: 0c08f9999e8b59c95bd1052e6ff06e6a)-->
+<!--[[[end]]] (checksum: a6645047f820e59a2d9b753c2cff74ac)-->

@@ -11,7 +11,7 @@ jsonschema==4.19.1
 │   └── rpds-py [required: >=0.7.0, installed: 0.8.11]
 └── rpds-py [required: >=0.7.1, installed: 0.8.11]
 lxml==4.9.3
-msgspec==0.18.3
+msgspec==0.18.4
 PyYAML==6.0.1
 toml==0.10.2
 typer==0.9.0
