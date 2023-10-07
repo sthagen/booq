@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([48ab6094 ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:48ab609437ff1207f076b79e39202862544f856951eed1acafa065cdea0c0dce")).
-<!--[[[end]]] (checksum: f368752c1b050b29f25db7968bf99211)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([a1b42fc9 ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:a1b42fc9dffd078349f86f33277929af4c0d4221ccd4980831fdcad4e802b293")).
+<!--[[[end]]] (checksum: 00f58a1ac101ea7e28d324e7d9ad550c)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -27,12 +27,12 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                                      | Version                                              | License     | Author                     | Description (from packaging data)                                    |
-|:----------------------------------------------------------|:-----------------------------------------------------|:------------|:---------------------------|:---------------------------------------------------------------------|
-| [attrs](https://www.attrs.org/en/stable/changelog.html)   | [23.1.0](https://pypi.org/project/attrs/23.1.0/)     | MIT License | Hynek Schlawack <hs@ox.cx> | Classes Without Boilerplate                                          |
-| [click](https://palletsprojects.com/p/click/)             | [8.1.5](https://pypi.org/project/click/8.1.5/)       | BSD License | UNKNOWN                    | Composable command line interface toolkit                            |
-| [elementpath](https://github.com/sissaschool/elementpath) | [4.1.5](https://pypi.org/project/elementpath/4.1.5/) | MIT License | Davide Brunato             | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
-<!--[[[end]]] (checksum: 8fecd57740e895a0c678c80ceed89484)-->
+| Name                                                      | Version                                              | License     | Author                                | Description (from packaging data)                                    |
+|:----------------------------------------------------------|:-----------------------------------------------------|:------------|:--------------------------------------|:---------------------------------------------------------------------|
+| [attrs](https://www.attrs.org/en/stable/changelog.html)   | [23.1.0](https://pypi.org/project/attrs/23.1.0/)     | MIT License | Hynek Schlawack <hs@ox.cx>            | Classes Without Boilerplate                                          |
+| [click](https://palletsprojects.com/p/click/)             | [8.1.5](https://pypi.org/project/click/8.1.5/)       | BSD License | Pallets <contact@palletsprojects.com> | Composable command line interface toolkit                            |
+| [elementpath](https://github.com/sissaschool/elementpath) | [4.1.5](https://pypi.org/project/elementpath/4.1.5/) | MIT License | Davide Brunato                        | XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml |
+<!--[[[end]]] (checksum: 641cc54dce8a880c791a3a7a0852dff3)-->
 
 ## Dependency Tree(s)
 
