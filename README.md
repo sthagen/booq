@@ -3,7 +3,8 @@
 Python implementation of booq - a tool calculating binary year to date metrics with monthly cumulative slices.
 
 [License: MIT](https://git.sr.ht/~sthagen/booq/tree/default/item/LICENSE) | 
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/booq/tree/default/item/COUNTRY-OF-ORIGIN)
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/booq/tree/default/item/COUNTRY-OF-ORIGIN) | 
+[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/booq/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 
 [![version](https://img.shields.io/pypi/v/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
 [![downloads](https://static.pepy.tech/badge/booq/month)](https://pepy.tech/project/booq)
