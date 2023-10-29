@@ -2,16 +2,15 @@
 
 Python implementation of of booq - a tool calculating binary year to date metrics with monthly cumulative slices. 
 
-[License: MIT](https://git.sr.ht/~sthagen/booq/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/booq/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/booq/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/booqNAME/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/booqNAME/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/booqNAME/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![version](https://img.shields.io/pypi/v/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
-[![downloads](https://static.pepy.tech/badge/booq/month)](https://pepy.tech/project/booq)
-[![wheel](https://img.shields.io/pypi/wheel/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/booq.svg?style=flat)](https://git.sr.ht/~sthagen/booq/log)
+[![Version](https://img.shields.io/pypi/v/booqNAME.svg?style=flat)](https://pypi.python.org/pypi/booqNAME/)
+[![Downloads](https://static.pepy.tech/badge/booqNAME/month)](https://pepy.tech/project/booqNAME)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/booqNAME.svg?style=flat)](https://pypi.python.org/pypi/booqNAME/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/booqNAME.svg?style=flat)](https://git.sr.ht/~sthagen/booqNAME/log)
 
 ## Bug Tracker
 
