@@ -11,11 +11,6 @@ title = "Booq"
 builddir = "book"
 
 [output.html]
-mathjax-support = true
-site-url = "/docs/booq"
-git-repository-url = "https://git.sr.ht/~sthagen/booq"
-
-[output.html]
 default-theme = "coal"
 git-repository-url = "https://git.sr.ht/~sthagen/booq"
 git-repository-icon = "fa-code-fork"
