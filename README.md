@@ -8,7 +8,7 @@ Python implementation of booq - a tool calculating binary year to date metrics w
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/booq/tree/default/item/docs/third-party/README.md)
 
 [![Version](https://img.shields.io/pypi/v/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
-[![Downloads](https://static.pepy.tech/badge/booq/month)](https://pepy.tech/project/booq)
+[![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/booq)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/booq/log)
 
