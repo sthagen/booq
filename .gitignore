@@ -140,3 +140,4 @@ foo
 
 # Repository specific ignores
 .metrics
+book
