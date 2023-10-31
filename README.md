@@ -7,7 +7,7 @@ Python implementation of booq - a tool calculating binary year to date metrics w
 [![Export Classification Control Number (ECCN)](docs/badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/booq/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/booq/tree/default/item/docs/third-party/README.md)
 
-[![Version](https://img.shields.io/pypi/v/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
+[![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/booq/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/booq)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/booq.svg?style=flat)](https://pypi.python.org/pypi/booq/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/booq/log)
