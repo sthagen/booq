@@ -91,6 +91,11 @@
       "downloads": 1
     },
     {
+      "category": "3.8",
+      "date": "2023-11",
+      "downloads": 1
+    },
+    {
       "category": "3.9",
       "date": "2023-05",
       "downloads": 10
@@ -118,7 +123,7 @@
     {
       "category": "null",
       "date": "2023-05",
-      "downloads": 4
+      "downloads": 3
     },
     {
       "category": "null",
@@ -144,6 +149,11 @@
       "category": "null",
       "date": "2023-10",
       "downloads": 5
+    },
+    {
+      "category": "null",
+      "date": "2023-11",
+      "downloads": 1
     }
   ],
   "package": "booq",
