@@ -1,7 +1,7 @@
 {
   "booq": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:14:17.258325",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:50:51 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 11,
@@ -13,6 +13,22 @@
     "num_branches": 2,
     "num_partial_branches": 0,
     "covered_branches": 2,
-    "missing_branches": 0
+    "missing_branches": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "booq/__init__.py",
+      "booq/booq.py",
+      "booq/cli.py"
+    ],
+    "blake3": "0c8d28e19f8af511bf48a56ca8eb1e6faabd62a163f4f64ddfacdec829abcbd4",
+    "blake2": "519334f2caf06955a5c2b9d923810e1d6b01382f1fa9f94e240472751dc7a8fcf4efe32ae0890ffdae028ec1718404d029a23bc8ec7e6bdc7470aeed9ee492f5",
+    "sha512": "1a7cb79b60ee094112c4085a8a8c4a2e283f96c9b8790aef15feaba5a90e22f4386fca942ea403125c49d40075941f9450b5afe6e30e9590db281e765718936c",
+    "sha384": "4796ee46c039fdc4196908849a1068887f68a7db8b6a1181afc6ce1bdecc4a5d2c1969cb8987728f1822b2ab02afd008",
+    "sha256": "92385a6ad06e28a05ccc8c06ceff2ce6841d09f890fd8d91ff67e9049c84d8ef",
+    "sha1": "832f1112768b8e3920593876662e58cc183e88fe",
+    "md5": "d30ff899661352e9d33e491cc13009ed",
+    "python_version": "3.10.12",
+    "entropy": 4.981518
   }
 }
