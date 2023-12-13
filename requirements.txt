@@ -3,7 +3,7 @@ first==2.0.2
 jmespath==1.0.1
 jsonschema==4.20.0
 lxml==4.9.3
-msgspec==0.18.4
+msgspec==0.18.5
 referencing==0.32.0
 toml==0.10.2
 typer==0.9.0
