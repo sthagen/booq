@@ -7,4 +7,4 @@ msgspec==0.18.5
 referencing==0.32.1
 toml==0.10.2
 typer==0.9.0
-xmlschema==2.5.1
+xmlschema==3.0.0
