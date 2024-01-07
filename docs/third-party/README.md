@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([0dbdde6f ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:0dbdde6fe47275b8cbe537867255054d3ea1170906d66bfa0aefd1f0d19875b6")).
-<!--[[[end]]] (checksum: bc473659c6f4aae867bb84d28a952852)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([21f08ccf ...](https://git.sr.ht/~sthagen/booq/blob/default/etc/sbom/cdx.json.sha256 "sha256:21f08ccfed209de2b7979ee1ca4672ce43d0d2c6999660ff06d85d79ee1d4083")).
+<!--[[[end]]] (checksum: e85dbeb381f0791f29f9cdba186241e7)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -16,13 +16,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | [first](http://github.com/hynek/first/)                         | [2.0.2](https://pypi.org/project/first/2.0.2/)         | MIT License | Hynek Schlawack    | Return the first true value of an iterable.                                                              |
 | [jmespath](https://github.com/jmespath/jmespath.py)             | [1.0.1](https://pypi.org/project/jmespath/1.0.1/)      | MIT License | James Saryerwinnie | JSON Matching Expressions                                                                                |
 | [jsonschema](https://github.com/python-jsonschema/jsonschema)   | [4.20.0](https://pypi.org/project/jsonschema/4.20.0/)  | MIT License | Julian Berman      | An implementation of JSON Schema validation for Python                                                   |
-| [lxml](https://lxml.de/)                                        | [5.0.0](https://pypi.org/project/lxml/5.0.0/)          | BSD License | lxml dev team      | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
+| [lxml](https://lxml.de/)                                        | [5.0.1](https://pypi.org/project/lxml/5.0.1/)          | BSD License | lxml dev team      | Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.         |
 | [msgspec](https://jcristharif.com/msgspec/)                     | [0.18.5](https://pypi.org/project/msgspec/0.18.5/)     | BSD License | Jim Crist-Harif    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
 | [referencing](https://github.com/python-jsonschema/referencing) | [0.32.1](https://pypi.org/project/referencing/0.32.1/) | MIT License | Julian Berman      | JSON Referencing + Python                                                                                |
 | [toml](https://github.com/uiri/toml)                            | [0.10.2](https://pypi.org/project/toml/0.10.2/)        | MIT License | William Pearson    | Python Library for Tom's Obvious, Minimal Language                                                       |
 | [typer](https://github.com/tiangolo/typer)                      | [0.9.0](https://pypi.org/project/typer/0.9.0/)         | MIT License | Sebastián Ramírez  | Typer, build great CLIs. Easy to code. Based on Python type hints.                                       |
-| [xmlschema](https://github.com/sissaschool/xmlschema)           | [2.5.1](https://pypi.org/project/xmlschema/2.5.1/)     | MIT License | Davide Brunato     | An XML Schema validator and decoder                                                                      |
-<!--[[[end]]] (checksum: b4c602fb4ed62f030723a44e14188212)-->
+| [xmlschema](https://github.com/sissaschool/xmlschema)           | [3.0.0](https://pypi.org/project/xmlschema/3.0.0/)     | MIT License | Davide Brunato     | An XML Schema validator and decoder                                                                      |
+<!--[[[end]]] (checksum: 86df2b64ca628c8f779f803fd2f4240e)-->
 
 ### Indirect Dependencies
 
@@ -60,14 +60,14 @@ jsonschema==4.20.0
 │   ├── attrs [required: >=22.2.0, installed: 23.2.0]
 │   └── rpds-py [required: >=0.7.0, installed: 0.8.11]
 └── rpds-py [required: >=0.7.1, installed: 0.8.11]
-lxml==5.0.0
+lxml==5.0.1
 msgspec==0.18.5
 PyYAML==6.0.1
 toml==0.10.2
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
-xmlschema==2.5.1
+xmlschema==3.0.0
 └── elementpath [required: >=4.1.5,<5.0.0, installed: 4.1.5]
 ````
-<!--[[[end]]] (checksum: b6ae38c2ae4a10b4e748c0bc9ca7d0ce)-->
+<!--[[[end]]] (checksum: 29a085a08da2d838878b77c8a8dbd4f5)-->
