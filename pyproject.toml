@@ -7,6 +7,7 @@ name = "booq"
 version = "2022.8.9"
 description = "Python implementation of booq - a tool calculating binary year to date metrics with monthly cumulative slices."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 classifiers = [
