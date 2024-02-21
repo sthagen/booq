@@ -88,7 +88,7 @@
     {
       "category": "3.8",
       "date": "2024-02",
-      "downloads": 77
+      "downloads": 81
     },
     {
       "category": "3.9",
@@ -108,7 +108,7 @@
     {
       "category": "null",
       "date": "2023-08",
-      "downloads": 2
+      "downloads": 1
     },
     {
       "category": "null",
@@ -138,7 +138,7 @@
     {
       "category": "null",
       "date": "2024-02",
-      "downloads": 4
+      "downloads": 5
     }
   ],
   "package": "booq",
