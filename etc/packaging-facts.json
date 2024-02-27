@@ -20,6 +20,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "https://git.sr.ht/~sthagen/booq",
     "keywords": "developer-tools,validation,verification",
     "license": "",
@@ -36,6 +37,7 @@
       "Source Code": "https://git.sr.ht/~sthagen/booq",
       "Test Coverage": "https://codes.dilettant.life/coverage/booq"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/booq/2022.8.9/",
     "requires_dist": [
       "PyYAML (>=6.0)",
