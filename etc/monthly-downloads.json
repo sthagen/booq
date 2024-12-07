@@ -2,11 +2,6 @@
   "data": [
     {
       "category": "3.10",
-      "date": "2024-06",
-      "downloads": 1
-    },
-    {
-      "category": "3.10",
       "date": "2024-08",
       "downloads": 7
     },
@@ -27,23 +22,13 @@
     },
     {
       "category": "3.12",
-      "date": "2024-05",
-      "downloads": 2
-    },
-    {
-      "category": "3.12",
       "date": "2024-08",
       "downloads": 4
     },
     {
       "category": "3.8",
-      "date": "2024-05",
-      "downloads": 40
-    },
-    {
-      "category": "3.8",
       "date": "2024-06",
-      "downloads": 211
+      "downloads": 147
     },
     {
       "category": "3.8",
@@ -68,7 +53,12 @@
     {
       "category": "3.8",
       "date": "2024-11",
-      "downloads": 184
+      "downloads": 240
+    },
+    {
+      "category": "3.8",
+      "date": "2024-12",
+      "downloads": 48
     },
     {
       "category": "3.9",
@@ -83,11 +73,6 @@
     {
       "category": "3.9",
       "date": "2024-10",
-      "downloads": 1
-    },
-    {
-      "category": "null",
-      "date": "2024-05",
       "downloads": 1
     },
     {
@@ -118,7 +103,12 @@
     {
       "category": "null",
       "date": "2024-11",
-      "downloads": 69
+      "downloads": 73
+    },
+    {
+      "category": "null",
+      "date": "2024-12",
+      "downloads": 13
     }
   ],
   "package": "booq",
