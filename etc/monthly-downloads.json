@@ -33,7 +33,7 @@
     {
       "category": "3.8",
       "date": "2024-06",
-      "downloads": 66
+      "downloads": 56
     },
     {
       "category": "3.8",
@@ -63,7 +63,7 @@
     {
       "category": "3.8",
       "date": "2024-12",
-      "downloads": 154
+      "downloads": 162
     },
     {
       "category": "3.9",
@@ -108,7 +108,7 @@
     {
       "category": "null",
       "date": "2024-12",
-      "downloads": 33
+      "downloads": 38
     }
   ],
   "package": "booq",
