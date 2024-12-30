@@ -32,13 +32,8 @@
     },
     {
       "category": "3.8",
-      "date": "2024-06",
-      "downloads": 8
-    },
-    {
-      "category": "3.8",
       "date": "2024-07",
-      "downloads": 248
+      "downloads": 240
     },
     {
       "category": "3.8",
@@ -63,7 +58,7 @@
     {
       "category": "3.8",
       "date": "2024-12",
-      "downloads": 220
+      "downloads": 236
     },
     {
       "category": "3.9",
@@ -77,13 +72,8 @@
     },
     {
       "category": "null",
-      "date": "2024-06",
-      "downloads": 1
-    },
-    {
-      "category": "null",
       "date": "2024-07",
-      "downloads": 20
+      "downloads": 19
     },
     {
       "category": "null",
@@ -108,7 +98,7 @@
     {
       "category": "null",
       "date": "2024-12",
-      "downloads": 48
+      "downloads": 52
     }
   ],
   "package": "booq",
